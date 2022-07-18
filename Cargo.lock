@@ -1244,9 +1244,9 @@ dependencies = [
 
 [[package]]
 name = "cash"
-version = "0.1.5"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ca7077bfb83fbcc8a79534dcf491bc2eb53c4d194db898458b948896910a168"
+checksum = "f2d65c62ee2baa6a60ddd6c8f701caf264e1e80d4a75c3096b6e13d029cfedc4"
 
 [[package]]
 name = "cc"
