@@ -3602,7 +3602,7 @@ dependencies = [
  "num_cpus",
  "once_cell",
  "openssl",
- "paste 1.0.5",
+ "paste 1.0.9",
  "percent-encoding 2.1.0",
  "pico-args",
  "plist",
@@ -4223,7 +4223,7 @@ dependencies = [
  "itertools 0.10.1",
  "legion_codegen",
  "parking_lot 0.11.2",
- "paste 1.0.5",
+ "paste 1.0.9",
  "rayon",
  "scoped-tls-hkt",
  "serde",
@@ -5522,9 +5522,9 @@ dependencies = [
 
 [[package]]
 name = "paste"
-version = "1.0.5"
+version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "acbf547ad0c65e31259204bd90935776d1c693cec2f4ff7abb7a1bbbd40dfe58"
+checksum = "b1de2e551fb905ac83f73f7aedf2f0cb4a0da7e35efa24a202a936269f1f18e1"
 
 [[package]]
 name = "paste-impl"
