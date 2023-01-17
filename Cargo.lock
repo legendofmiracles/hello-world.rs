@@ -5823,16 +5823,16 @@ checksum = "7c9b1041b4387893b91ee6746cddfc28516aff326a3519fb2adf820932c5e6cb"
 
 [[package]]
 name = "plist"
-version = "1.2.1"
+version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a38d026d73eeaf2ade76309d0c65db5a35ecf649e3cec428db316243ea9d6711"
+checksum = "5329b8f106a176ab0dce4aae5da86bfcb139bb74fb00882859e03745011f3635"
 dependencies = [
  "base64 0.13.0",
- "chrono",
  "indexmap",
  "line-wrap",
+ "quick-xml",
  "serde",
- "xml-rs",
+ "time 0.3.3",
 ]
 
 [[package]]
@@ -6023,6 +6023,15 @@ name = "quick-error"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a993555f31e5a609f617c12db6250dedcac1b0a85076912c436e6fc9b2c8e6a3"
+
+[[package]]
+name = "quick-xml"
+version = "0.26.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7f50b1c63b38611e7d4d7f68b82d3ad0cc71a2ad2e7f61fc10f1328d917c93cd"
+dependencies = [
+ "memchr",
+]
 
 [[package]]
 name = "quickcheck"
@@ -7917,6 +7926,7 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cde1cf55178e0293453ba2cca0d5f8392a922e52aa958aee9c28ed02becc6d03"
 dependencies = [
+ "itoa",
  "libc",
 ]
 
